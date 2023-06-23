@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Index = (props) => {
     const [msg, setMsg] = useState("React is easy");
+
+    useEffect(() => console.log(msg) ,[msg]);
+
   return (
     <>
         <h1>Hello {props.name}</h1>
