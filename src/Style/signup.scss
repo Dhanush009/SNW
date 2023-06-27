@@ -1,0 +1,5 @@
+@import "../commom.scss";
+
+.signup-card-shadow{
+    @include box-shadow(grey);
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import User from './User'
 import { Container, Row } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 const Users = () => {
     const url = 'https://dummyapi.io/data/v1/user?limit=10'

@@ -10,7 +10,7 @@ const User = ({data:{firstName, lastName, title, picture}}) => {
         <Card.Body className='card-body'>
           <img src={picture} alt="" height="100px" width="100px"/>
           <div className='textButton'>
-            <span>{`${title} ${firstName} ${lastName}`}</span>
+            <span>{`${firstName} ${lastName}`}</span>
             <Button variant="outline-primary">Add Friend</Button>
           </div>
         </Card.Body>
